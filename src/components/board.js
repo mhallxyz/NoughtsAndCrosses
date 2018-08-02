@@ -30,11 +30,12 @@ const Board = props => {
     );
 }
 
-const styles = new StyleSheet({
+const styles = StyleSheet.create({
     boardRow: {
-        height: 200,
-        width: 600,
-        backgroundColor: 'red'
+        height: 100,
+        width: 300,
+        backgroundColor: 'red',
+        flexDirection: 'row',
     }
 })
 

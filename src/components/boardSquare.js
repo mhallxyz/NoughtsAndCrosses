@@ -15,13 +15,12 @@ const BoardSquare = props => {
     );
 }
 
-const styles = new StyleSheet({
+const styles = StyleSheet.create({
     boardSquare: {
-        height: 200,
-        width: 200,
+        flex: 1,
         backgroundColor: 'red',
-        borderWidth: '1px',
-        borderColor: 'black'
+        borderWidth: 1,
+        borderColor: 'black',
     }
 })
 export default BoardSquare;
